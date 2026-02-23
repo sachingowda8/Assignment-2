@@ -31,3 +31,4 @@ print("Base Price:", price)
 print("Discount:", discount)
 print("Price after discount:", final_price)
 print("Total for", tickets, "ticket(s):", total)
+

@@ -29,3 +29,4 @@ while True:
     if again != "yes":
         print("Thanks for playing! Best score:", best)
         break
+

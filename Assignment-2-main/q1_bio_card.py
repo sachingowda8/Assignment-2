@@ -17,3 +17,4 @@ print("║  Course  :", course, " " * (18 - len(course)), "║")
 print("║  College :", college[:28], " " * 2, "║")
 print("║  Email   :", email, " " * (18 - len(email)), "║")
 print("╚══════════════════════════════════════════╝")
+

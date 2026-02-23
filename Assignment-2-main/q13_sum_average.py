@@ -23,3 +23,4 @@ print("\nSum:", total)
 print("Average:", avg)
 print("Maximum:", big)
 print("Minimum:", small)
+

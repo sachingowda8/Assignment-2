@@ -17,3 +17,4 @@ print("After tax:  ", round(after_tax, 2))
 print("Tip (" + str(tip) + "%):  ", round(tip_amount, 2))
 print("Total:      ", round(total, 2))
 print("Per person: ", round(per_person, 2))
+

@@ -33,3 +33,4 @@ print("\nTotal:", total, "/ 500")
 print("Percentage:", round(percent, 2), "%")
 print("Grade:", grade)
 print("Result:", result)
+

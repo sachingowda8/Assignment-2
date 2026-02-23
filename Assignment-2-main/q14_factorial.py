@@ -11,3 +11,4 @@ else:
         result = result * i
         steps = steps + " x " + str(i)
     print(str(n) + "! =", steps, "=", result)
+

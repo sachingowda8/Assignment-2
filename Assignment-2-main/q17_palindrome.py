@@ -11,3 +11,4 @@ if cleaned == reversed_word:
     print("Result: PALINDROME")
 else:
     print("Result: NOT a Palindrome")
+

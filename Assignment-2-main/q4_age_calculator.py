@@ -20,3 +20,4 @@ print("In days:", total_days)
 print("In hours:", total_days * 24)
 print("In minutes:", total_days * 24 * 60)
 print("Years left to reach 100:", 100 - age)
+

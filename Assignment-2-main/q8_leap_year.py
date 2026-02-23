@@ -12,3 +12,4 @@ elif year % 4 == 0:
     print(year, "is a Leap Year (divisible by 4)")
 else:
     print(year, "is NOT a Leap Year")
+

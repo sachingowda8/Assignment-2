@@ -22,3 +22,4 @@ print(num1, "*", num2, "=", mul)
 print(num1, "/", num2, "=", div)
 print(num1, "%", num2, "=", mod)
 print(num1, "^", num2, "=", power)
+
