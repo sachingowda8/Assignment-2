@@ -1,3 +1,4 @@
+import os
 import re
 from flask import Flask, request, jsonify
 from flask_limiter import Limiter
@@ -31,14 +32,17 @@ def analyze_compliance():
     user_input = data.get('query', '')
     
     # Security Check: Input Sanitization
-    clean_input = sanitize_input(user_input)
+    clean_input = sanitize_input(user_input).strip()
     
     if not clean_input:
         return jsonify({"error": "Invalid or empty input"}), 400
 
     try:
-        # Prompt Tuning for Sustainability Compliance
-        system_prompt = "You are a Sustainability Compliance Expert. Analyze the following query for ESG compliance rules."
+        # Day 6: Prompt Tuning - Load prompt from file
+        prompt_path = os.path.join(os.path.dirname(__file__), 'prompts', 'sustainability_expert.txt')
+        with open(prompt_path, 'r') as f:
+            system_prompt = f.read().strip()
+            
         response = client.get_completion(clean_input, system_prompt=system_prompt)
         
         return jsonify({
