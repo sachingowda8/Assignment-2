@@ -21,6 +21,7 @@ A tool-based AI solution to monitor and ensure sustainability compliance.
 * Implemented `flask-limiter` for rate limiting (30 requests/minute).
 * Added security features to strip HTML and block prompt injection.
 * Configured specialized system prompts for sustainability compliance expertise.
+
 ### 📅 Day 4
 * Developed AiServiceClient.java using Spring RestTemplate.
 * Configured a 10-second timeout for robust service communication.
@@ -54,3 +55,15 @@ A tool-based AI solution to monitor and ensure sustainability compliance.
 * Validated endpoint formats (`/health` and `/api/analyze`).
 * Covered robust error handling (missing data, internal errors).
 * Verified prompt injection rejection and HTML sanitization logic.
+
+### 📅 Day 9
+* Performed **Security Sign-off** audit for the AI service.
+* Verified prompt injection defenses and rate limiting stability.
+* Conducted PII (Personally Identifiable Information) data check to ensure privacy.
+* Documented finalized security architecture in `SECURITY.md`.
+
+### 📅 Day 10
+* Conducted a comprehensive **AI Quality Review** with 10 fresh ESG-related inputs.
+* Achieved an average accuracy score of **5/5** based on expert guidelines.
+* Fixed failing prompts by tuning the system instruction for consistent multi-section responses.
+* Created `AI_QUALITY_REVIEW.md` to document test results and model performance.
